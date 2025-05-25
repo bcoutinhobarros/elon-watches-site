@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header, footer {
+  background-color: #002b1e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background: #111 url('banner-luxo.jpg') no-repeat center center/cover;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #002b1e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.colecao {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+.produto img, .produto video {
+  width: 100%;
+  border-radius: 10px;
+}
+footer img {
+  height: 50px;
+}
